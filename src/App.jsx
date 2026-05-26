@@ -358,7 +358,7 @@ h2 { font-size: 22px; margin: 0 0 8px; }
 h3 { font-size: 16px; margin: 20px 0 8px; }
 .subtle { color: #64748b; line-height: 1.45; margin: 0; }
 .flapList { display: grid; gap: 12px; }
-.flapButton { width: 100%; text-align: left; border: 1px solid #991b1b; background: #dc2626; color: white; border-radius: 22px; padding: 18px; font-size: 18px; font-weight: 800; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 8px 20px rgba(220, 38, 38, 0.22); }
+.flapButton { width: 100%; text-align: left; border: 1px solid #771b1b; background: #dc2626; color: white; border-radius: 22px; padding: 18px; font-size: 18px; font-weight: 800; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 8px 20px rgba(220, 38, 38, 0.22); }
 .flapButton small { color: #fee2e2; font-size: 13px; font-weight: 650; }
 .practiceHeader { display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start; margin-bottom: 14px; }
 .backButton { border: 1px solid #cbd5e1; background: white; color: #0f172a; border-radius: 999px; padding: 10px 13px; font-weight: 800; }
