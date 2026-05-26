@@ -17,33 +17,469 @@ For the donor site, I close what I can primarily, then resurface the remaining d
 
 Post-operatively, I would admit to the ICU for hourly flap monitoring with Doppler and clinical checks, and monitor the donor site for graft take.`,
     rubric: [
-      { concept: "Mathes and Nahai type B fasciocutaneous flap", terms: ["Mathes and Nahai", "type B", "fasciocutaneous"] },
-      { concept: "Radial artery pedicle", terms: ["radial artery", "radial vessels"] },
-      { concept: "Paired venae comitantes", terms: ["venae comitantes", "paired veins", "concomitant veins"] },
-      { concept: "Optional cephalic vein for venous outflow", terms: ["cephalic vein", "additional venous outflow", "supplemental venous drainage"] },
-      { concept: "Sensate flap with LABC nerve", terms: ["lateral antebrachial cutaneous", "LABC", "sensate"] },
-      { concept: "Allen test and ulnar-sided perfusion", terms: ["Allen", "ulnar perfusion", "hand perfusion"] },
-      { concept: "Avoid prior radial arterial line and use non-dominant side", terms: ["radial arterial line", "previous radial", "non dominant"] },
-      { concept: "Mark radial artery and reverse-template defect", terms: ["mark radial artery", "reverse template", "template defect"] },
-      { concept: "Supine, arm abducted and supinated on arm board", terms: ["supine", "arm abducted", "supinated", "arm board"] },
-      { concept: "Tourniquet control", terms: ["tourniquet"] },
-      { concept: "Axis from AC fossa to scaphoid tubercle", terms: ["AC fossa", "antecubital", "scaphoid tubercle"] },
-      { concept: "Between brachioradialis and FCR", terms: ["brachioradialis", "BR", "flexor carpi radialis", "FCR"] },
-      { concept: "Borders including 3 cm proximal to wrist crease", terms: ["3 cm", "wrist crease", "middle one third"] },
-      { concept: "Raise distal to proximal and ulnar to radial", terms: ["distal to proximal", "ulnar to radial"] },
-      { concept: "Distal radial artery and venae ligation", terms: ["ligate radial artery", "ligate venae", "distal ligation"] },
-      { concept: "Preserve paratenon over flexor tendons", terms: ["paratenon", "flexor tendons"] },
-      { concept: "Protect superficial radial nerve", terms: ["superficial radial nerve"] },
-      { concept: "Clip side branches and keep radial artery in flap", terms: ["side branches", "clip", "radial artery incorporated"] },
-      { concept: "Protect LABC nerve proximally", terms: ["lateral antebrachial cutaneous", "LABC"] },
-      { concept: "Confirm radial artery, not brachial artery, before division", terms: ["not brachial", "confirm radial", "brachial artery"] },
-      { concept: "Donor site STSG from thigh", terms: ["split thickness", "STSG", "thigh"] },
-      { concept: "Bolster and volar resting splint in POSI", terms: ["bolster", "volar resting splint", "POSI", "position of safety"] },
-      { concept: "ICU hourly flap monitoring", terms: ["ICU", "hourly", "Doppler", "clinical checks", "flap monitoring"] },
-      { concept: "Monitor donor site graft take", terms: ["graft take", "donor site"] },
-    ],
+  { 
+    concept: "Mathes and Nahai type B fasciocutaneous flap", 
+    terms: [
+      "Mathes and Nahai",
+      "Mathes Nahai",
+      "type B",
+      "type b flap",
+      "type B fasciocutaneous",
+      "fasciocutaneous",
+      "fasciocutaneous flap",
+      "fascio cutaneous",
+      "skin fascia flap"
+    ] 
   },
-];
+
+  { 
+    concept: "Radial artery pedicle", 
+    terms: [
+      "radial artery",
+      "radial vessels",
+      "radial artery pedicle",
+      "radial pedicle",
+      "radial artery with veins",
+      "radial artery and veins",
+      "radial artery with venae",
+      "radial artery with venae comitantes",
+      "radial artery with paired veins"
+    ] 
+  },
+
+  { 
+    concept: "Paired venae comitantes", 
+    terms: [
+      "venae comitantes",
+      "venae commitantes",
+      "vena comitantes",
+      "vena comitante",
+      "veni comitantes",
+      "veiny comitantes",
+      "vein a comitantes",
+      "venous comitantes",
+      "comitantes",
+      "commitantes",
+      "paired venae",
+      "paired veins",
+      "paired vein",
+      "paired venous drainage",
+      "concomitant veins",
+      "concomitant vein",
+      "comitant veins",
+      "comitant vein",
+      "accompanying veins",
+      "accompanying vein",
+      "VC",
+      "VCs",
+      "V C",
+      "V C's"
+    ] 
+  },
+
+  { 
+    concept: "Optional cephalic vein for venous outflow", 
+    terms: [
+      "cephalic vein",
+      "sephalic vein",
+      "cephalic",
+      "include cephalic vein",
+      "include the cephalic vein",
+      "optional cephalic vein",
+      "additional venous outflow",
+      "extra venous outflow",
+      "supplemental venous drainage",
+      "additional vein drainage",
+      "additional venous drainage",
+      "extra vein for drainage",
+      "improve venous outflow",
+      "augment venous outflow",
+      "second vein",
+      "extra vein",
+      "venous drainage through cephalic"
+    ] 
+  },
+
+  { 
+    concept: "Sensate flap with LABC nerve", 
+    terms: [
+      "lateral antebrachial cutaneous",
+      "lateral antebrachial cutaneous nerve",
+      "lateral antebrachial",
+      "antebrachial cutaneous",
+      "LABC",
+      "L A B C",
+      "L A B C nerve",
+      "sensate",
+      "sensate flap",
+      "sensation",
+      "sensory flap",
+      "include LABC",
+      "include the LABC",
+      "include the lateral antebrachial cutaneous nerve",
+      "lateral cutaneous nerve of forearm",
+      "cutaneous nerve for sensation"
+    ] 
+  },
+
+  { 
+    concept: "Allen test and ulnar-sided perfusion", 
+    terms: [
+      "Allen",
+      "Allen test",
+      "Allen's test",
+      "ulnar perfusion",
+      "ulnar sided perfusion",
+      "ulnar-sided perfusion",
+      "hand perfusion",
+      "confirm hand perfusion",
+      "adequate ulnar flow",
+      "adequate ulnar perfusion",
+      "ulnar artery flow",
+      "collateral flow to the hand"
+    ] 
+  },
+
+  { 
+    concept: "Avoid prior radial arterial line and use non-dominant side", 
+    terms: [
+      "radial arterial line",
+      "prior radial arterial line",
+      "previous radial arterial line",
+      "radial art line",
+      "prior radial art line",
+      "previous radial art line",
+      "radial line",
+      "previous radial access",
+      "radial artery access",
+      "non dominant",
+      "non-dominant",
+      "non dominant hand",
+      "non-dominant hand",
+      "non dominant extremity",
+      "non-dominant extremity",
+      "non dominant forearm",
+      "non-dominant forearm",
+      "use the non dominant side",
+      "use the non-dominant side",
+      "avoid dominant hand",
+      "avoid the dominant extremity"
+    ] 
+  },
+
+  { 
+    concept: "Mark radial artery and reverse-template defect", 
+    terms: [
+      "mark radial artery",
+      "mark the radial artery",
+      "radial artery marked",
+      "reverse template",
+      "reverse-template",
+      "reverse template defect",
+      "reverse-template defect",
+      "template the defect",
+      "defect template",
+      "mark the defect",
+      "template onto the forearm"
+    ] 
+  },
+
+  { 
+    concept: "Supine, arm abducted and supinated on arm board", 
+    terms: [
+      "supine",
+      "arm abducted",
+      "abducted arm",
+      "arm supinated",
+      "supinated",
+      "supination",
+      "arm board",
+      "hand supinated",
+      "forearm supinated",
+      "arm out on an arm board",
+      "arm on arm board"
+    ] 
+  },
+
+  { 
+    concept: "Tourniquet control", 
+    terms: [
+      "tourniquet",
+      "tourniquet control",
+      "under tourniquet",
+      "with a tourniquet",
+      "arm tourniquet"
+    ] 
+  },
+
+  { 
+    concept: "Axis from AC fossa to scaphoid tubercle", 
+    terms: [
+      "AC fossa",
+      "A C fossa",
+      "antecubital fossa",
+      "middle of the AC fossa",
+      "middle of the antecubital fossa",
+      "scaphoid tubercle",
+      "scaphoid",
+      "AC fossa to scaphoid",
+      "AC fossa to scaphoid tubercle",
+      "antecubital fossa to scaphoid",
+      "antecubital fossa to scaphoid tubercle",
+      "axis from AC fossa",
+      "axis to scaphoid tubercle",
+      "line from AC fossa to scaphoid",
+      "line from antecubital fossa to scaphoid"
+    ] 
+  },
+
+  { 
+    concept: "Between brachioradialis and FCR", 
+    terms: [
+      "brachioradialis",
+      "brachio radialis",
+      "BR",
+      "B R",
+      "flexor carpi radialis",
+      "FCR",
+      "F C R",
+      "between brachioradialis and FCR",
+      "between BR and FCR",
+      "between B R and F C R",
+      "between brachioradialis and flexor carpi radialis"
+    ] 
+  },
+
+  { 
+    concept: "Borders including 3 cm proximal to wrist crease", 
+    terms: [
+      "3 cm",
+      "three cm",
+      "three centimeters",
+      "3 centimeters",
+      "wrist crease",
+      "proximal to wrist crease",
+      "3 cm proximal to wrist crease",
+      "three centimeters proximal to wrist crease",
+      "middle one third",
+      "middle third",
+      "middle one-third",
+      "proximal border middle third"
+    ] 
+  },
+
+  { 
+    concept: "Raise distal to proximal and ulnar to radial", 
+    terms: [
+      "distal to proximal",
+      "distal proximal",
+      "from distal to proximal",
+      "ulnar to radial",
+      "from ulnar to radial",
+      "ulnar side to radial side",
+      "raise ulnar to radial",
+      "raise distal to proximal",
+      "elevate distal to proximal",
+      "elevate ulnar to radial"
+    ] 
+  },
+
+  { 
+    concept: "Distal radial artery and venae ligation", 
+    terms: [
+      "ligate radial artery",
+      "ligate the radial artery",
+      "divide radial artery distally",
+      "distal radial artery ligation",
+      "radial artery ligated distally",
+      "ligate venae",
+      "ligate the venae",
+      "ligate venae comitantes",
+      "ligate veins distally",
+      "ligate paired veins",
+      "distal ligation",
+      "distal pedicle ligation",
+      "tie off radial artery",
+      "tie off the radial artery",
+      "tie off the veins",
+      "clip radial artery distally",
+      "clip veins distally"
+    ] 
+  },
+
+  { 
+    concept: "Preserve paratenon over flexor tendons", 
+    terms: [
+      "paratenon",
+      "para tenon",
+      "preserve paratenon",
+      "preserve the paratenon",
+      "keep paratenon",
+      "leave paratenon",
+      "protect paratenon",
+      "paratenon over flexor tendons",
+      "flexor tendons",
+      "protect flexor tendons",
+      "preserve over the flexor tendons",
+      "do not strip the tendons",
+      "avoid exposed tendon"
+    ] 
+  },
+
+  { 
+    concept: "Protect superficial radial nerve / SBRN", 
+    terms: [
+      "superficial radial nerve",
+      "superficial branch radial nerve",
+      "superficial branch of radial nerve",
+      "superficial branch of the radial nerve",
+      "SBRN",
+      "S B R N",
+      "radial sensory nerve",
+      "sensory branch radial nerve",
+      "protect SBRN",
+      "protect the SBRN",
+      "protect superficial radial",
+      "protect the superficial radial nerve",
+      "preserve superficial radial nerve",
+      "avoid superficial radial nerve"
+    ] 
+  },
+
+  { 
+    concept: "Clip side branches and keep radial artery in flap", 
+    terms: [
+      "side branches",
+      "clip side branches",
+      "ligate side branches",
+      "divide side branches",
+      "radial artery incorporated",
+      "keep radial artery incorporated",
+      "keep radial artery in the flap",
+      "keep the radial artery with the flap",
+      "radial artery remains in flap",
+      "pedicle incorporated"
+    ] 
+  },
+
+  { 
+    concept: "Protect LABC nerve proximally", 
+    terms: [
+      "lateral antebrachial cutaneous",
+      "lateral antebrachial cutaneous nerve",
+      "LABC",
+      "L A B C",
+      "protect LABC",
+      "protect the LABC",
+      "protect LABC nerve",
+      "protect the lateral antebrachial cutaneous nerve",
+      "preserve LABC",
+      "preserve the LABC",
+      "preserve lateral antebrachial cutaneous",
+      "avoid LABC injury"
+    ] 
+  },
+
+  { 
+    concept: "Confirm radial artery, not brachial artery, before division", 
+    terms: [
+      "not brachial",
+      "not the brachial",
+      "not brachial artery",
+      "not the brachial artery",
+      "confirm radial",
+      "confirm radial artery",
+      "confirm it is radial artery",
+      "confirm before division",
+      "before dividing the pedicle",
+      "avoid brachial artery",
+      "do not divide brachial artery",
+      "do not take brachial artery",
+      "brachial artery safety",
+      "radial not brachial"
+    ] 
+  },
+
+  { 
+    concept: "Donor site STSG from thigh", 
+    terms: [
+      "split thickness",
+      "split-thickness",
+      "split thickness skin graft",
+      "STSG",
+      "S T S G",
+      "skin graft",
+      "thigh donor site",
+      "from the thigh",
+      "graft from thigh",
+      "skin graft from thigh",
+      "staples",
+      "staple the graft"
+    ] 
+  },
+
+  { 
+    concept: "Bolster and volar resting splint in POSI", 
+    terms: [
+      "bolster",
+      "bolster dressing",
+      "volar resting splint",
+      "volar splint",
+      "resting splint",
+      "POSI",
+      "P O S I",
+      "position of safety",
+      "hand in POSI",
+      "hand in position of safety",
+      "safe position",
+      "intrinsic plus",
+      "protective splint"
+    ] 
+  },
+
+  { 
+    concept: "ICU hourly flap monitoring", 
+    terms: [
+      "ICU",
+      "I C U",
+      "intensive care",
+      "admit to ICU",
+      "admit to the ICU",
+      "hourly",
+      "hourly checks",
+      "hourly flap checks",
+      "hourly monitoring",
+      "flap monitoring",
+      "flap checks",
+      "Doppler",
+      "Doppler checks",
+      "clinical checks",
+      "clinical monitoring",
+      "monitor with Doppler",
+      "post op monitoring",
+      "postoperative monitoring",
+      "q1 hour",
+      "Q1 hour",
+      "Q one hour",
+      "every hour",
+      "every hourly"
+    ] 
+  },
+
+  { 
+    concept: "Monitor donor site graft take", 
+    terms: [
+      "graft take",
+      "monitor graft take",
+      "donor site",
+      "monitor donor site",
+      "donor site monitoring",
+      "skin graft take",
+      "check graft take",
+      "watch the donor site"
+    ] 
+  },
+],
 
 function normalize(text) {
   return String(text || "")
